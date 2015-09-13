@@ -1,0 +1,64 @@
+{
+    "dist": "dist",
+    "app": "app",
+    "doc":"documentation/**/*.*",
+    
+    "image_placeholder":"app/image-placeholders/",
+    "images":"app/Images/",
+    "compile_js" :"app/Javascripts/",
+    "compile_js_vendor" :"app/Javascripts/vendor/",
+    "scripts" :"app/scripts/",
+    "bowerfont":["bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*.*"],
+    "fontpath" :"app/Fonts/",
+    "compile_styles":"app/Css/",
+    "compile_Vstyles":"app/Css/",
+   
+    "d_images":"dist/Images/",
+    "d_compile_js" :"dist/Javascripts/",
+    "d_compile_js_vendor" :"dist/Javascripts/vendor/",
+    "d_fontpath" :"dist/Fonts/",
+    "d_styles":"dist/Css/",
+    "d_Vstyles":"dist/Css/",
+   
+
+    "package": "main",
+    "server": "server",
+    "stack": "developer-task",
+    "client":"html",
+
+    "p_server": "main/server/",
+    "p_server_js": "main/server/js/",
+    "p_server_js_vendor": "main/server/js/vendor/",
+
+    "p_stack": "main/developer-task/",
+    "p_client": "main/html/",
+
+    "p_st_images":"main/developer-task/images/",
+    "p_st_compile_js" :"",
+    "p_st_compile_js_vendor" :"",
+
+    "p_s_images":"",
+    "p_s_compile_js" :"",
+    "p_s_compile_js_vendor" :"",
+    
+    "p_h_images":"main/html/images/",
+    "p_h_compile_js" :"",
+    "p_h_compile_js_vendor" :"",
+
+
+    "p_doc":"main/documentation/",
+
+    
+    "headjs": "bower_components/modernizr/modernizr.js",
+    "vendor_js": [
+        "bower_components/jquery/dist/jquery.js",
+        "bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"
+    ],
+    "mainjs": "app/scripts/main.js",
+    "maincoffe":"app/scripts/main.coffee",
+    "styles_scss":"app/style.scss",
+    "vendor_scss":"app/vendor.scss",
+
+    "u_mainjs" : "Javascripts/main.min.js",
+    "u_vendorjs" : "Javascripts/vendor/vendor.min.js"
+}
